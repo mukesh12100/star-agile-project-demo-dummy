@@ -5,7 +5,7 @@
   - name: install docker
     apt: 
       pkg: docker.io
-      state: present
+      state: absent
 
   - name: start docker service
     service:
